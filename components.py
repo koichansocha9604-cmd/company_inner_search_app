@@ -32,9 +32,6 @@ def display_select_mode():
         options=[ct.ANSWER_MODE_1, ct.ANSWER_MODE_2],
         label_visibility="collapsed"
     )
-#呼び出し側（メイン処理）でサイドバーを指定
-with st.sidebar:
-    display_select_mode()
 
 
 def display_initial_ai_message():
